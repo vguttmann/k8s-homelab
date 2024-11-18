@@ -30,6 +30,6 @@ server:
 
 configs:
   kustomize.buildOptions: --enable-helm
-  repositories: {}
+  repositories:
     private-repo:
       url: https://github.com/vguttmann/homelab-k8s
