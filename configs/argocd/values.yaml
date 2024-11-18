@@ -1,4 +1,5 @@
 global:
+  kustomize.buildOptions: --enable-helm
   revisionHistoryLimit: 1
   additionalLabels:
     app: argo-cd
