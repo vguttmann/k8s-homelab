@@ -23,6 +23,10 @@ redis:
       memory: 30m
 
 
+server:
+  config:
+    kustomize.buildOptions: --enable-helm
+
 
 configs:
   repositories: {}
