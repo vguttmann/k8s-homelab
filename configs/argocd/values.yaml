@@ -23,12 +23,13 @@ redis:
       memory: 30m
 
 
-#server:
-#  config:
-#    kustomize.buildOptions: --enable-helm
+server:
+  config:
+    kustomize.buildOptions: --enable-helm
 
 
 configs:
+  kustomize.buildOptions: --enable-helm
   repositories: {}
     private-repo:
       url: https://github.com/vguttmann/homelab-k8s
